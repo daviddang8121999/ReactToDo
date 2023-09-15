@@ -1,8 +1,26 @@
-# React + Vite
+# ToDo Web App with React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+App that keeps track of your to-do actions
+		Can add any number of tasks to it
+		Search saved tasks
+		Click on check box to complete task
+		Filter using buttons like acive tasks, completed tasks and all the tasks
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+	Set up React project:
+	> npm create vite@latest
+		Use React Framwork
+		Use JaaScript + SWC (Faster)
+	> npm i (Install all dependencies)
+	> code . (Open VS Code)
+	> npm run dev (Start application)
+
+
+	Loop through a list of Todo we can use (map)
+	.filter -> filter through all id and keep all excep the chosen id
+	all the props can be written under {...prop}
+
+	Layout for React 
+		Hook
+		Funciton
+		Display
